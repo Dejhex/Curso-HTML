@@ -1,0 +1,33 @@
+/* https://codepen.io/enxaeta/full/adLPwv    Enlace para parcticar sobre los flex */
+
+.flex {
+    display: flex;
+    flex-direction: column;                 /* indica la posición del contenido modificando el justify-content y el align-items */
+    background-color: yellow;
+    height: 300px;
+    justify-content: space-around;          /* indica la posiciona del contenido dentro del flex, este se modifica según el tamaño de la ventana */
+    align-items: center;                    /*alinea los item según los atributos - strech: rellena los espacios con los contenedores - center: centra los contenedores en el flex */
+                                            /* la altura se designa según el contenido */
+    /* flex-wrap: wrap; */                  /* modifica la posicion del contenido según el tamaño de la ventana */
+}
+
+.contenido-1 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.contenido-2 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.contenido-3 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}

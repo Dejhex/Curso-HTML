@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2? family= Advent+Pro:ital,wght@0,100;0,200;1,100 & display=swap');
+/* url con estilos agregados, estraer de fonts.google.com*/
+html {
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/     /* Tipo de letra para el texto */
+    font-family: 'Advent Pro', sans-serif;
+    font-size: larger;                                          /* cambio en tamaño de la letra */
+    font-weight: 50;                                            /* cambio en el grosor de la letra */
+}

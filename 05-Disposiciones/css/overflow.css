@@ -1,0 +1,53 @@
+/* Contenedor hidden - mantiene la información en su interior pero esta
+ no puede ser revisada si sobrepasa sus limites ideal para información resumida */
+.contenedor-hidden {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: hidden;
+}   
+
+/* Contenedor scroll - mantiene la información en su interior pero esta
+ y crea una barra de deslizamiento para su revisión tanto horizontal como vertical */
+.contenedor-scroll {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: scroll;
+}   
+
+/* Contenedor visible - mantiene la información en su interior pero esta
+ sobrepasa los limites del contenedor */
+.contenedor-visible {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: visible;
+}   
+
+/* Contenedor auto - mantiene la información en su interior pero el overflow
+ crea una barra de deslizamiento dependiendo del contenido a utilizar */
+.contenedor-auto {
+    margin: 80px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: auto;
+}  
+
+/* overflow personalida para esconder el eje x y mostrar el eje y */
+.contenedor-scroll-x {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}       

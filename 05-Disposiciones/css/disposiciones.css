@@ -1,0 +1,24 @@
+.div-1, .div-2 {
+    background-color: red;
+    /* display: block; POR DEFECTO - div tiene un display block */ /*significa que utiliza todo el punto de trabajo*/
+}   
+
+.span-1, .span-2 {
+    background-color: aquamarine;
+    /* display: inline; POR DEFECTO - span tiene un display inline */ /*significa que solo utiliza una linea en todo el punto de trabajo*/
+    /* height: 500px; */
+    float: right;
+}
+
+.span-2 {
+    background-color: aquamarine;
+    /* display: inline; POR DEFECTO - span tiene un display inline */ /*significa que solo utiliza una linea en todo el punto de trabajo*/
+    /* height: 500px; */
+    float: left;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}

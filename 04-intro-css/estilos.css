@@ -1,0 +1,30 @@
+h1 {                                /* https://www.youtube.com/watch?v=hYpnxlRSp9w */
+    color: red;
+}
+
+p {
+    color: blue;                  /*color de la fuente */
+    font-size: 16pt;                /*tamaño de la fuente */
+}
+
+#primera-noticia {                  /* # : selector aplicable para datos id */
+    color: green;
+    font-size: 12pt;
+}
+
+#segunda-noticia {
+    color: darkmagenta;
+}
+
+.encabezado{                        /* . : selector aplicable para datos class */
+    font-size: 24pt;
+    text-trabsform: uppercase;
+}
+
+*.warning{                          /* * : selector aplicable para datos universales */
+    color: red;
+}
+
+.autor, .fecha, .ubicación {         /* esto puede ser expresado por separado o todo en conjunto como se se destaca */
+    text-decoration: underline;      /* los selectores se pueden mezclar según se requiera */
+}

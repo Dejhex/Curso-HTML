@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resultados</title>
+    </head>
+    <body>
+        <h3>Estos son los resultados</h3>
+        <div id="Resultados"></div>
+        <br>
+        <a href="/02-Forms-Tables/Formularios.html">Volver al formulario</a>
+    </body>
+<!-- Hay un problema con esta información, no se registran los datos en la carpeta de resultados-->
+<!-- Aun no se soluciona, revisar video de youtube "5 etiquetas para formularios", 10/10/2023 -->
+<!-- Lenguaje de Java, posible modificación-->
+    <script>
+        const resDiv = document.getElementById("resultados")                 
+        new URLSearchParams(window.location.search).forEach((val,name)=>{    
+            resDiv.append(`${name}: ${val}`)
+            resDiv.append(document.createElement('br'))
+        })
+    </script>
+</html>

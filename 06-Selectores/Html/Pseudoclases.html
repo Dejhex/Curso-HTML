@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Clases</title>
+    <!-- https://www.youtube.com/watch?v=cY2KQr_C3z0&list=PLkVpKYNT_U9derDLVJ2I-moKE-jGIBmDn&index=24 -->
+    <!-- https://www.w3schools.com/css/css_pseudo_classes.asp -->
+    
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        }
+
+        .hover:hover {   /* Se activa cuando el cursor pasa por encima */
+            background-color: burlywood;
+        }
+
+        .Listado {
+            padding: 15px;
+            background-color: aquamarine;
+        }
+
+        .Listado p:first-child {
+            color: white;
+        }
+
+        a:link {
+            color: deeppink;
+        }
+
+        a:visited {
+            color: crimson;
+        }
+
+        a:hover {
+            color: pink;
+        }
+
+        a:active {
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>
+            Aliquip quis fugiat laboris ad nostrud laborum reprehenderit nulla. Magna reprehenderit irure ullamco
+            voluptate officia ad fugiat. Esse dolor amet quis culpa voluptate labore deserunt. Eu esse cillum sint anim
+            laborum.
+        </p>
+    </div>
+    <div class="Listado">
+        <p>Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p>Párrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">Enlace a Google</a>
+        <a href="http://marca.com" target="_blank">Enlace a Marca</a>
+    </div>
+</body>
+
+</html>

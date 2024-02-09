@@ -1,0 +1,30 @@
+/* Establecer margenes iniciales en el presente caso 0 */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Establecer tipo y color de letra a utilizar */
+html {
+    font-family: helvetica;     /* tipo de letra aplicada */
+    color: white;             /* color de letra aplicada */
+}
+/* Establecer posición y propiedades del video */
+.video {
+    width: 100vw;               /* atributo "vw"usa el 100% del la pantalla en ancho */
+    height: 100vh;              /* atributo "vh"usa el 100% del la pantalla en alto */
+    object-fit: cover;          /* Esta propiedad permite que el video se adapte a la pantalla sin importar el tamaño */
+    position: fixed;            /* Se fija el elemento en la pantalla, sin barra de scroll */
+}
+
+/* Establecer posición y propiedasdes del encabezado */
+.header {
+    height: 100vh; 
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center ;
+    align-items: center;
+}

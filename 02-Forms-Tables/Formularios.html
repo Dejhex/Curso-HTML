@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios</title>                                                      <!--Designacion de titulo en codigo-->
+    </head>                                                                             <!-- Form: formulario - almacena la información para ser enviada donde sera utilizada-->
+    <body>                                                                              <!-- Action: indica el archivo donde sera enviada la información-->
+        <form action="Resultados.html" method="GET">                                    <!-- Direcciona la posicion de los datos almacenados GET / POST -->
+            <div>                                                                       <!-- Indica mediante los atributus la info de los usuarios-->
+                <label for="nombreusuario">Nombre de usuario</label>                    <!-- Input: indica la entrada de datos en un apartado especifico -->
+                <input type="text" name="nombreusuario" id="nombreusuario" required />  <!-- Label: indica el nombre de una entrada de datos -->
+            </div>                                                                       
+            <br>                                                                        <!-- For: indica para inut esta designada la etiqueta -->
+            <div>                                                                       <!-- Type: la informacion puede ser expresado en el formato que se  -->
+                <label for="password">Contraseña</label>                                <!-- requiere- text, number, paswoord(la contraseña no es visible), email, date--> 
+                <input type="password" name="password" id="password" required/>         <!-- Name: -->    
+            </div>                                                                      <!-- Id: -->
+            <br>                                                                        <!-- Etiqueta "br" solo separa las lineas, no genera cambios en el codigo-->
+            <div>                                                                       <!-- Required: indica que el dato solicitado es obligatorio-->
+                <label for="email">Cuál es tu email</label>
+                <input type="email" name="email" id="email"></input>                     
+            </div>
+            <br>
+            <div>                                           
+                <label for="edad">Cuál es tu edad</label>|
+                <input type="number" name="edad" id="edad" min="0" max="200" step="5"/> <!-- Min: establece un número minimo de edad, evita los numeros negativos-->
+            </div>                                                                      <!-- Max: establece un número maximo de edad, evita los numeros muy grandes-->       
+            <br>                                                                        <!-- Step: permite que la cuente salte sobre númenros, en este caso, de 5 en 5-->
+            <div>                                          
+                <label for="nacimiento">Cuál es tu fecha de nacimiento</label>
+                <input type="date" name="nacimiento" id="nacimiento"/>
+            </div>
+            <br>
+            <div>                        
+                <label for="comentarios">Comentarios</label>
+                <textarea name="comentarios" id="comentarios"></textarea>
+            </div>
+            <button type="reset">Reset</button>                                         <!-- RESET: agrega un boton que resetea (borra) la información agregada-->
+            <button type="submit">Enviar</button>                                       <!-- SUBMIT: agrega un boton que envia la información agregada al form mencionado al inicio-->                  
+        </form>
+    </body> 
+</html>

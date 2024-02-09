@@ -1,0 +1,45 @@
+.contenedor {                       /* establece los parametros para el contenedor a trabajar */
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+div {                               /* modifica el color de los div no personalidos */
+    background-color: pink;
+}
+
+span.frase {                        /* modifica el tipo de letra */
+    font-style: italic;
+}
+
+span.frase::before {                /* agrega el signo mayor que */
+    content: '<< ';
+    font-size: xx-small;
+}
+span.frase::after {                 /* agrega el signo menor que */
+    content: ' >>';
+    font-size: xx-small;
+}
+
+.Libro {
+    background-color: bisque;
+    padding: 15px;
+    font-family: Arial;
+}
+
+.Libro p::first-letter {            /* modifica el tamaño de la primera letra */
+    font-size: xx-large;
+}
+
+.Libro p::first-line {              /* modifica el color de la primera fila */
+    color: white;
+}
+
+.Libro p::selection {               /* modifica el color para selecionar texto */
+    background-color: chocolate;
+    color: lime;
+}
+
+.listado li::marker {               /* modifica el color de las guias en cada tipo de listado */
+    color:red;
+}

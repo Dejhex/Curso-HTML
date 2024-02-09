@@ -1,0 +1,27 @@
+*{                                  /* Propiedad para establecer los margenes generales */
+    padding: 0;
+    margin: 0;
+}
+
+.imagen-principal {
+    width: 100vw;                   /* atributo "vw"usa el 100% del la pantalla */
+    opacity: 0.3;                   /* afecta la transparencia de la imagen */
+}
+
+.imagen-principal:hover {           /* Esta propiedad hace que la imagen se aclare cuando */
+    opacity: 1;                     /* el cursor se posa sobre ella                       */
+}
+
+.galeria {                          
+    display:flex;                   /* Establece un orden para la galeria de fotos */
+    flex-wrap: wrap;
+    gap: 10px;                      /* Establece una separacion entre las imagenes */
+}
+.imagen-galeria {                   /* inserta las imagenes con un tamaño designado */
+    width: 150px;
+}
+
+.imagen-galeria:hover {             /* Esta propiedad hace que la imagen se aclare cuando */         
+    opacity: 0.3;                   /* afecta la transparencia de la imagen */
+    cursor: pointer;                /* Esta propiedad convierte el cursor en un mano al estar sobre la imagen */
+}
